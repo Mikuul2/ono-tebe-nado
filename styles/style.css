@@ -7,8 +7,6 @@
 }
 
 .header__menu {
-  width: 388px;
-  height: 23px;
   margin-right: 209px;
 }
 
@@ -26,13 +24,12 @@
 }
 
 .header__link {
-  box-sizing: border-box;
-  display: block;
   color: #000;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
+  white-space: nowrap;
 }
 
 .header__links-list-item_no-bullit {
@@ -44,8 +41,8 @@
 }
 
 .header__logo {
-  box-sizing: border-box;
   display: block;
+  box-sizing: border-box;
   width: 148px;
   height: 105px;
   margin-right: 355px;
