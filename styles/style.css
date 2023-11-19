@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 92px 49px 96px 51px;
+  padding: 92px 50px 96px 50px;
 }
 
 .header__menu {
@@ -19,16 +19,16 @@
   padding-right: 32px;
 }
 
+.header__links-list-item:last-of-type {
+  padding-right: 0;
+}
+
 .header__link {
   color: #000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.header__links-list-item:last-of-type {
-  padding-right: 0;
 }
 
 .header__links-list-item_no-bullit {
