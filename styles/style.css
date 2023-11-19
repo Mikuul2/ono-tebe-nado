@@ -49,6 +49,7 @@
 .address {
   font-weight: 400;
   font-size: 18px;
+  font-style: normal;
 }
 
 .header__address {
@@ -99,14 +100,17 @@
 
 .aligned-text {
   align-self: flex-start;
+  height: 115px;
 }
 
 .aligned-text_center {
   align-self: center;
+  height: 100px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
+  height: 100px;
 }
 
 .cover__description {
