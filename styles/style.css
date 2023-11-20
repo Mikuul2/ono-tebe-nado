@@ -55,6 +55,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
+  white-space: nowrap;
 }
 
 .address a {
@@ -96,6 +97,7 @@
 
 .cover__title span {
   display: inline-flex;
+  align-items: center;
   height: 100px;
 }
 
