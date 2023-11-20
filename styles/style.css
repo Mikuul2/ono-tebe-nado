@@ -99,6 +99,10 @@
   height: 100px;
 }
 
+.cover__title span:first-of-type {
+  height: 115px;
+}
+
 .letter-spacing {
   letter-spacing: 60px;
 }
