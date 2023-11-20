@@ -44,13 +44,14 @@
   box-sizing: border-box;
   width: 148px;
   height: 105px;
-  margin-right: 355px;
+  margin-right: 300px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
   min-width: 240px;
+  max-width: 240px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
