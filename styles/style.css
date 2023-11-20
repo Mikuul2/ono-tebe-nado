@@ -50,7 +50,6 @@
 .address {
   display: flex;
   flex-direction: column;
-  width: 240px;
   min-width: 240px;
   font-weight: 400;
   font-size: 18px;
@@ -230,6 +229,7 @@
 }
 
 .card__title {
+  width: 350px;
   color: #FFF;
   font-weight: 700;
   font-size: 22px;
@@ -246,6 +246,9 @@
 
 .lots__look-more-link {
   margin-left: 40px;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
   text-underline-offset: 4px;
 }
 
