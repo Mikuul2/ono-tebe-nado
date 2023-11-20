@@ -44,18 +44,18 @@
   box-sizing: border-box;
   width: 148px;
   height: 105px;
-  margin-right: 355px;
+  margin-right: 350px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
-  max-width: 240px;
+  width: 240px;
+  min-width: 240px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  white-space: nowrap;
 }
 
 .address a {
