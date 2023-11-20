@@ -126,11 +126,11 @@
   align-self: flex-start;
 }
 
-.aligned-text_center {
+.aligned-text-center {
   align-self: center;
 }
 
-.aligned-text_right {
+.aligned-text-right {
   align-self: flex-end;
 }
 
@@ -258,10 +258,6 @@
 }
 
 .about {
-  padding: 0 50px 180px 50px;
-}
-
-.about__column {
   display: grid;
   grid-template-columns: 430px 885px;
   grid-template-rows: 240px;
@@ -269,6 +265,7 @@
   'logo title'
   'logo text';
   gap: 8px 25px;
+  padding: 0 50px 180px 50px;
 }
 
 .about__title {
