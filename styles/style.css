@@ -3,6 +3,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  min-width: 109px;
   padding: 92px 50px 96px 50px;
 }
 
@@ -41,11 +42,11 @@
 
 .header__logo {
   position: absolute;
+  right: 45vw;
   display: block;
   box-sizing: border-box;
   width: 148px;
   height: 105px;
-  right: 45vw;
 }
 
 .header__address {
