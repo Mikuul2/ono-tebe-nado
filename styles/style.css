@@ -1,13 +1,13 @@
 
 .header {
+  position: relative;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 92px 50px 96px 50px;
 }
 
 .header__menu {
-  margin-right: 209px;
+  margin-right: auto;
 }
 
 .header__links-list {
@@ -40,18 +40,22 @@
 }
 
 .header__logo {
+  position: absolute;
   display: block;
   box-sizing: border-box;
   width: 148px;
   height: 105px;
-  margin-right: 300px;
+  right: 45vw;
+}
+
+.header__address {
+  justify-self: flex-end;
 }
 
 .address {
   display: flex;
   flex-direction: column;
-  min-width: 240px;
-  max-width: 240px;
+  width: 240px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
