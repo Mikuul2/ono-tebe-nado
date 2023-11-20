@@ -27,6 +27,7 @@
   color: #000;
   font-weight: 400;
   font-size: 18px;
+  text-underline-offset: 4px;
   white-space: nowrap;
 }
 
@@ -47,14 +48,17 @@
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
+  line-height: 24.3px;
 }
 
-.header__address {
-  display: flex;
-  flex-direction: column;
+.address a {
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -90,6 +94,11 @@
   text-transform: uppercase;
 }
 
+.cover__title span {
+  display: inline-flex;
+  height: 100px;
+}
+
 .letter-spacing {
   letter-spacing: 60px;
 }
@@ -100,17 +109,14 @@
 
 .aligned-text {
   align-self: flex-start;
-  height: 115px;
 }
 
 .aligned-text_center {
   align-self: center;
-  height: 100px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
-  height: 100px;
 }
 
 .cover__description {
@@ -158,6 +164,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 30px;
   list-style: none;
@@ -165,6 +172,11 @@
 
 .lots__card-list-item {
   width: 430px;
+  height: 450px;
+}
+
+.lots__card-list-item:last-of-type {
+  flex-grow: 1;
   height: 450px;
 }
 
@@ -212,6 +224,7 @@
   font-weight: 700;
   font-size: 22px;
   text-decoration-line: underline;
+  text-underline-offset: 4px;
   text-transform: uppercase;
 }
 
@@ -223,6 +236,7 @@
 
 .lots__look-more-link {
   margin-left: 40px;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -288,6 +302,10 @@
   list-style: none;
 }
 
+.footer__menu-link {
+  text-underline-offset: 4px;
+}
+
 .footer__menu-link_active {
   text-decoration: none;
 }
@@ -306,14 +324,14 @@
   height: 48px;
 }
 
-.footer__social-icon-vk {
-  background-image: url(../images/vk.svg);
+.footer__social-icon-yt {
+  background-image: url(../images/yt.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.footer__social-icon-yt {
-  background-image: url(../images/yt.svg);
+.footer__social-icon-vk {
+  background-image: url(../images/vk.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
