@@ -62,7 +62,7 @@
 }
 
 .address p {
-  width: 240px;
+  min-width: 240px;
 }
 
 .cover {
@@ -229,7 +229,7 @@
 }
 
 .card__title {
-  width: 350px;
+  min-width: 350px;
   color: #FFF;
   font-weight: 700;
   font-size: 22px;
