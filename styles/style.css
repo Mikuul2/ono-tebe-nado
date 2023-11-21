@@ -103,12 +103,7 @@
 
 .cover__title span {
   display: inline-flex;
-  align-items: center;
-  line-height: 100px;
-}
-
-.cover__title span:first-of-type {
-  line-height: 115px;
+  align-items: flex-start;
 }
 
 .letter-spacing {
@@ -121,14 +116,17 @@
 
 .aligned-text {
   align-self: flex-start;
+  line-height: 1.15;
 }
 
 .aligned-text-center {
   align-self: center;
+  line-height: 1;
 }
 
 .aligned-text-right {
   align-self: flex-end;
+  line-height: 1;
 }
 
 .cover__description {
