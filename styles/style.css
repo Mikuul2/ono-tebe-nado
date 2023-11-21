@@ -255,7 +255,7 @@
   grid-template-areas: 
   'logo title'
   'logo text';
-  gap: 8px 25px;
+  gap: 0 25px;
   padding: 0 50px 180px 50px;
 }
 
@@ -342,5 +342,3 @@
 .footer__social-icon-pt {
   background-image: url(../images/pinterest.svg);
 }
-
-/* комментарий для коммита */
